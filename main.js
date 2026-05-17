@@ -22,9 +22,9 @@ const pAequorFactory = (num, arr) => {
     dna: arr,
     mutate() {
       const randomDnaIndex = Math.floor(Math.random() * this.dna.length);
-      console.log(
-        `random dna index is ${randomDnaIndex} and the dna for this index is ${this.dna[randomDnaIndex]}`,
-      );
+      // console.log(
+      //   `random dna index is ${randomDnaIndex} and the dna for this index is ${this.dna[randomDnaIndex]}`,
+      // );
       let newRandomBase;
 
       do {
